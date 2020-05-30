@@ -1,0 +1,34 @@
+
+.navbar {
+display:flex;
+justify-content: space-between;
+background-color:white;
+border-bottom-right-radius: 20px;
+border-bottom-left-radius: 20px;
+padding-bottom: 10px;
+padding-top: 5px;
+}
+
+.nav1 {
+  background: #ff5edf;
+  justify-content: center;
+  color: #fff;
+  padding: 6px 18px;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -o-border-radius: 5px;
+  -ms-border-radius: 5px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-right: 25px;
+  font-size: 1em;
+  cursor: pointer; }
+  .nav1:hover {
+    background:#04c8de; }
+
+.signoutt {
+  color: white;
+  margin:2px;
+
+}

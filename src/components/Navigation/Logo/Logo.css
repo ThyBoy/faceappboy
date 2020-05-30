@@ -1,0 +1,18 @@
+.logo{
+  padding:5px;
+}
+.logobox {
+  display: flex;
+  justify-content: flex-start;
+  border-radius:15px;
+  background-color: #04c8de;
+  margin: 8px;
+
+}
+.logoname {
+  font-size: 1rem;
+  color: white;
+  margin: 25px;
+  margin-left: 15px;
+  justify-content: center;
+}
