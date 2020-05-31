@@ -48,7 +48,7 @@ class Register extends React.Component{
 
   onSubmitSignup = () => {
     if ((this.state.password===this.state.repassword) & (this.state.password.length>1) & (this.state.name.length>1) & (this.state.email.length>1)){
-      fetch('http://localhost:3000/register',{
+      fetch('https://enigmatic-springs-50917.herokuapp.com/register',{
         method:'post',
         headers: {'Content-Type':'application/json'},
         body:JSON.stringify({

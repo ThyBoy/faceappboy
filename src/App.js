@@ -93,7 +93,7 @@ class App extends Component{
   onButtonSubmit = (event) => {
     this.setState({box:[]})
     this.setState({imageurl:this.state.input});
-    fetch('http://localhost:3000/imageapi',{
+    fetch('https://enigmatic-springs-50917.herokuapp.com/imageapi',{
       method:'post',
       headers: {'Content-Type':'application/json'},
       body:JSON.stringify({
@@ -102,7 +102,7 @@ class App extends Component{
     }).then(response => response.json())
       .then(respon => {
         if (respon.status==="success"){
-          fetch('http://localhost:3000/image',{
+          fetch('https://enigmatic-springs-50917.herokuapp.com/image',{
             method:'post',
             headers: {'Content-Type':'application/json'},
             body:JSON.stringify({
